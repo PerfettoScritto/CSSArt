@@ -10,5 +10,5 @@
 
 This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license.
 
-Copyright (c) 2018 Alexander Mityaev
+Copyright (c) 2022 Alexander Mityaev
 
