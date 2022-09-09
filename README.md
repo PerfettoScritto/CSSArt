@@ -1,8 +1,9 @@
 # CSSArt
 
-![PreferableCoins](source/Screenshot 2022-09-07 at 17-39-03 Document.png)   **PreferableCoins**
-Project of css drawing , banner and animations
-
+<p> <img  src="https://github.com/PerfettoScritto/CSSArt/blob/main/images/projectpicture.png"/>  
+ 
+</p>
+<p>CSSArt --> Project of css drawing , banner and animations </p>
 ***
 
 #### License
