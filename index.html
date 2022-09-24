@@ -1,34 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<style>
-		.wrapper {
-			width: 300px;
-			background:#ddd7d7;
-			margin: 0 auto;
-		}
 
-		img {
-			width: 300px;
-		}
-		/*#423838*/
-	</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+    .wrapper {
+        width: 300px;
+        background: #ddd7d7;
+        margin: 0 auto;
+        border: 10px solid white;
+    }
+
+    img {
+        width: 300px;
+    }
+
+    /*#423838*/
+    </style>
 </head>
+
 <body>
-	<div class="wrapper">
-	<div>
-		<img src="images/sun.png" alt="">
-		
-	</div>
-	<div>
-		<img src="images/bear.png" alt="">
-	</div>
-	<div>
-		<img src="images/greentemplate.png" alt="">
-	</div>
-	</div>
+    <div class="wrapper">
+        <div class="animate__animated animate__zoomIn">
+            <img src="images/sun.png" alt="">
+        </div>
+        <div>
+            <img class="animate__animated animate__fadeIn animate__slow" src="images/bear.png" alt="">
+        </div>
+        <div>
+            <img class="" src="images/greentemplate.png" alt="">
+        </div>
+    </div>
+    <script>
+    $(document).ready(function() {
+        console.log("ready!");
+    });
+    </script>
 </body>
+
 </html>
